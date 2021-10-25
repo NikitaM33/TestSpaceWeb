@@ -26,13 +26,14 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
-    "start": "set PORT=3001 && react-scripts start",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build",
-    "server": "json-server --watch db.json"
+    "server": "node server.js",
+    "json-server": "json-server --watch public/db.json --port=3001"
   },
   "eslintConfig": {
     "extends": [

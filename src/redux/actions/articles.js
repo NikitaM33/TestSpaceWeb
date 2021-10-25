@@ -1,8 +1,5 @@
 import { articleApi } from '../../services/api/articlesApi';
 
-import XMLParser from 'react-xml-parser';
-import axios from 'axios';
-
 export const setArticles = (payload) => ({
   type: 'SET_ARTICLES',
   payload

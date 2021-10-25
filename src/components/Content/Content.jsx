@@ -11,7 +11,7 @@ function Content() {
 
   useEffect(() => {
     dispatch(fetchArticles());
-  }, []);
+  }, [dispatch]);
 
   return (
     <div className="content">

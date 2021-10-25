@@ -1,5 +1,4 @@
 import { articleApi } from '../../services/api/articlesApi';
-import axios from 'axios';
 
 export const setArticles = (payload) => ({
   type: 'SET_ARTICLES',

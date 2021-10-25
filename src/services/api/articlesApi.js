@@ -2,9 +2,8 @@ import axios from 'axios';
 
 const instance = axios.create({
   withCredentials: false,
-  // baseURL: 'https://space-web-test.herokuapp.com'
-  baseURL: 'https://localhost:3001'
-  // react-scripts start
+  // baseURL: 'http://localhost:3001/'
+  baseURL: process.env.PORT || 'http://localhost:3001'
 });
 
 export const articleApi = {

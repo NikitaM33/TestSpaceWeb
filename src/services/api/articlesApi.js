@@ -9,6 +9,6 @@ import axios from 'axios';
 
 export const articleApi = {
   getArticles () {
-    return axios.get('/rss');
+    return axios.get('https://space-web-test.herokuapp.com/rss');
   }
 };

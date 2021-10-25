@@ -1,0 +1,19 @@
+@import 'variables';
+@import 'fonts';
+@import 'libs/normalize';
+@import 'components/all';
+
+.App {
+    max-width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.wrapper {
+    display: flex;
+    background: $background;
+}
+
+.content {
+    width: 100%;
+}

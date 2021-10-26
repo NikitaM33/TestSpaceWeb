@@ -10,6 +10,6 @@ export const fetchArticles = () => async (dispatch) => {
     const response = await articleApi.getArticles();
     dispatch(setArticles(response.data));
   } catch(err) {
-    throw new Error(err)
+    console.log(err)
   }
 };

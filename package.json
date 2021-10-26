@@ -33,8 +33,7 @@
     "deploy": "gh-pages -d build",
     "predeploy": "npm run build",
     "server": "node server.js",
-    "json-server": "json-server --watch public/db.json --port=3001",
-    "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
+    "json-server": "json-server --watch public/db.json --port=3001"
   },
   "eslintConfig": {
     "extends": [
